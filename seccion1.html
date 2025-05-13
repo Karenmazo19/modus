@@ -11,9 +11,12 @@
             h1{
                 font-family: "Bebas Neue", sans-serif;
                 font-size: 100px;
+                text-align: center;
             }
             h2 {font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
+            text-align: center;
+            font-size: 24pt;
         }
         </style>
 
@@ -31,7 +34,7 @@
         <!-- En la navegación (nav) van los botones de navegación entre las páginas (cada página es una sección) -->
         <nav>
             <a href="index.html">inicio</a>
-            <a href="seccion2.html">diseño grafico</a>
+            <a href="seccion2.html">diseño gráfico</a>
             <a href="seccion3.html">diseño industrial</a>         
         </nav>
         <style>
@@ -94,6 +97,7 @@ Un buen diseño puede influir positivamente en el estado de ánimo, reducir el e
                 </style>
             </div>
             <div class="parrafo2">
+                <img src="INTERIORES.png">
             <p>En 2025, las tendencias cromáticas en diseño gráfico e interiorismo se inclinan hacia paletas que evocan emociones, sostenibilidad y sofisticación. Estas combinaciones embellecen los espacios y diseños, también transmiten mensajes profundos y conectan con las personas a nivel sensorial.
                 En el diseño de interiores, el color no es solo decoración: es emoción, carácter y energía. Cada tono puede cambiar la percepción de un espacio, influir en el ánimo y contar una historia visual que refleja quiénes somos.
                 Los neutros suaves como el beige, el gris y el blanco cálido siguen siendo favoritos por su capacidad de aportar calma y amplitud. Pero cada vez más hogares se atreven con acentos vibrantes: verdes que conectan con la naturaleza, terracotas que evocan calidez y autenticidad, o azules profundos que invitan a la contemplación.
@@ -101,16 +105,52 @@ Un buen diseño puede influir positivamente en el estado de ánimo, reducir el e
                 Más que una tendencia, el color es una herramienta poderosa para transformar espacios en lugares que inspiran, que abrazan y que cuentan tu propia historia.
                 </p>
                 <style>
-                    .parrafo2{
-                        margin-left: 10%;
-                        margin-right: 10%;
-                        margin-top: 20px;
+                  
+                </style>
+                 <style>
+                    .parrafo2  {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 100px; /* Espacio entre imagen y texto */
+                        max-width: 900px;
+                        margin: 60px auto;
                     }
+                
+                    .parrafo2 img {
+                        width: 400px;
+                        height: auto;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+
+                    .parrafo2 p{
+                        margin-top: 70px;
+                    }
+                    
+              *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    background-color: cornsilk;
+}
+                section {
+                    max-width: 1200px; /* Limita el ancho del contenido */
+                    margin: 0 auto;   /* Centra el contenido horizontalmente */
+                    padding: 20px;
+                }
+            
+                section p {
+                    margin-bottom: 20px; /* Espacio entre párrafos */
+                    line-height: 1.6;     /* Mejora la legibilidad */
+                }
+                
+                
                 </style>
             
             </div>
                 <div class="subtitulo">
-                    <p>Espacion pequeños, ideas grandes</p>
+                    <p>Espacios pequeños, ideas grandes</p>
                     <style>
                         .subtitulo{
                             text-align: left;
@@ -122,26 +162,75 @@ Un buen diseño puede influir positivamente en el estado de ánimo, reducir el e
                         }
                     </style>
                     </div>
+                    <div class="columnas">
+                        <div class="columna">
+                          <img src="REPISA.png" alt="Imagen 1" />
+                          <p>01. Cuando el espacio en el suelo es limitado, mirar hacia arriba es la clave. Instalar repisas altas, muebles a medida o almacenamiento en pared permite liberar superficie sin perder funcionalidad.</p>
+                        </div>
+                        <div class="columna">
+                          <img src="BEIGE.png" alt="Imagen 2" />
+                          <p>02. Los tonos neutros como el blanco, el beige o el gris suave hacen que los espacios parezcan más amplios. Combinarlos con buena iluminación natural potencia la sensación de amplitud y frescura.</p>
+                        </div>
+                      </div>
+                      
+                      <style>
+                        .columnas {
+                          display: flex;
+                          gap: 100px;
+                          margin-left: 10%;
+                          margin-right: 10%;
+                        }
+                      
+                        .columna {
+                          flex: 1;
+                        }
+                      
+                        .columna img {
+                          width: 100%;
+                          height: auto;
+                          margin-bottom: 10px;
+                        }
+                      </style>
+    </div>
+        
+            <div class="subtitulo">
+                <p> </p>
+                <style>
+                    .subtitulo{
+                        text-align: left;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        font-size: 20pt;
+                        margin-left: 10%;
+                        margin-top: 20px;
+                    }
+                </style>
 
 
 
-
-
-
-            <a href="libro.pdf">Descargar revista en PDF</a>
-            <style>
-               a{
-                display: inline-block;
-                margin-top: 20px;
-                margin-left: 10%;
-               } 
-            </style>
+<DIV><a href="TRANSMEDIAAAA.pdf">Descargar revista en PDF</a>
+    <style>
+   section a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    display: flex;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #0056b3;
+    margin-bottom: 40PX;
+}
+    section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+   </DIV>
         </section>
 
         <!-- En el pie (footer) van los creditos-->
-        <footer>
-            <p>2025 - © Realizado por Karen Mazo, con cariño y ayuda del profesor Camilo Galeano</p>
-        </footer>
+    
     </main>
+    <footer>
+            <p class="foot">2025 - © Realizado por Karen Mazo, con cariño y ayuda del profesor Camilo Galeano</p>
+        </footer>
 </body>
 </html>

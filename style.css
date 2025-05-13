@@ -53,6 +53,9 @@ main{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
 }
+div{
+    margin-top: 50px;
+}
 
 header{
     background-color: beige;
@@ -68,7 +71,7 @@ nav{
 
 section{
     font-family: Arial, Helvetica, sans-serif;
-    height: 600px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    height: auto; /* Esta propiedad se puede cambiar según el alto del contenido */ 
     background-color: cornsilk;
     padding: 5%;
 }
@@ -78,4 +81,7 @@ footer{
     background-color: rgb(182, 182, 190);
     padding: 1%;
     text-align: center;
+}
+.foot{
+    background-color: rgb(182, 182, 190);
 }

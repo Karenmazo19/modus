@@ -27,14 +27,14 @@
 
         <!-- En el encabezado (header) va el título del proyecto y el título de la sección -->
         <header>
-            <h1>diseño Gráfico
-            <h2>Imágenes que comunican
+            <h1>diseño Gráfico</h1>
+            <h2>Imágenes que comunican</h2>
         </header>
 
         <!-- En la navegación (nav) van los botones de navegación entre las páginas (cada página es una sección) -->
         <nav>
+            <a href="seccion1.html">Diseño de interiores</a>
             <a href="index.html">inicio</a>
-            <a href="seccion2.html">diseño DE INTERIORES</a>
             <a href="seccion3.html">diseño industrial</a>         
         </nav>
         <style>
@@ -54,7 +54,7 @@
             margin: 10px;
             border-radius: 12px;
         }
-        nav{ background-color: blue;
+        nav{ background-color: rgb(235, 100,16);
             padding: 1%;
 
         }
@@ -64,11 +64,30 @@
 
         <!-- En el centro (section) van los contenidos de la sección -->
         <section>
+            <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-size: 100%;
+                background-color: cornsilk;
+            }
+                            section {
+                                max-width: 1200px; /* Limita el ancho del contenido */
+                                margin: 0 auto;   /* Centra el contenido horizontalmente */
+                                padding: 20px;
+                            }
+                        
+                            section p {
+                                margin-bottom: 20px; /* Espacio entre párrafos */
+                                line-height: 1.6;     /* Mejora la legibilidad */
+                            }
+                        </style>
             <div class="columnas">
-            <p>El diseño de interiores es una disciplina que trasciende la simple decoración; su objetivo principal es mejorar la calidad de vida de las personas a través de la creación de espacios funcionales, cómodos y estéticamente agradables. Toma en cuenta elementos como la ergonomía, la psicología del color, la iluminación y la disposición del mobiliario para fomentar el bienestar físico y emocional de quienes habitan un lugar.
-Un buen diseño puede influir positivamente en el estado de ánimo, reducir el estrés e incluso </p>
-<p>mejorar la productividad, especialmente en entornos laborales. En este sentido, no solo se busca que un espacio sea visualmente atractivo, sino también que responda a las necesidades prácticas y emocionales de sus usuarios.
-    A lo largo de la historia, el ser humano ha transformado su entorno para vivir con mayor comodidad y armonía. Con el tiempo, esta necesidad evolucionó hacia una forma de expresión cultural, donde el diseño de interiores refleja valores. </p>
+            <p>El diseño gráfico está en constante evolución. Las tendencias visuales reflejan no solo lo que está de moda, sino también las necesidades, emociones y cambios sociales de cada momento. En 2025, el diseño se mueve entre lo digital y lo emocional, buscando experiencias visuales auténticas, impactantes y significativas.
+                Entre las tendencias más fuertes se destaca el uso de tipografías expresivas que rompen las reglas tradicionales para convertirse en protagonistas del diseño. Las paletas de colores vibrantes y contrastantes  </p>
+<p>también están ganando espacio, buscando captar la atención en un mundo saturado de información.
+    El estilo retro-futurista vuelve con fuerza, mezclando nostalgia con tecnología, mientras que el diseño minimalista emocional busca transmitir calidez y cercanía desde la sencillez. Además, el uso de inteligencia artificial en la creación visual está abriendo nuevas posibilidades, desafiando los límites de la creatividad humana.  </p>
     <style>
         .columnas {
       display: flex;
@@ -84,7 +103,8 @@ Un buen diseño puede influir positivamente en el estado de ánimo, reducir el e
     </div>
         
             <div class="subtitulo">
-                <p>Colores que inspiran </p>
+                
+                <p>David Consuegra (1939–2004)</p>
                 <style>
                     .subtitulo{
                         text-align: left;
@@ -96,24 +116,57 @@ Un buen diseño puede influir positivamente en el estado de ánimo, reducir el e
                     }
                 </style>
             </div>
+
             <div class="parrafo2">
-            <p>En 2025, las tendencias cromáticas en diseño gráfico e interiorismo se inclinan hacia paletas que evocan emociones, sostenibilidad y sofisticación. Estas combinaciones embellecen los espacios y diseños, también transmiten mensajes profundos y conectan con las personas a nivel sensorial.
-                En el diseño de interiores, el color no es solo decoración: es emoción, carácter y energía. Cada tono puede cambiar la percepción de un espacio, influir en el ánimo y contar una historia visual que refleja quiénes somos.
-                Los neutros suaves como el beige, el gris y el blanco cálido siguen siendo favoritos por su capacidad de aportar calma y amplitud. Pero cada vez más hogares se atreven con acentos vibrantes: verdes que conectan con la naturaleza, terracotas que evocan calidez y autenticidad, o azules profundos que invitan a la contemplación.
-                ¿Buscas creatividad? El amarillo mostaza puede activar tu mente. ¿Prefieres relajarte? Los tonos lavanda o azul claro ayudan a crear ambientes tranquilos. La clave está en combinar color, luz y textura para lograr armonía.
-                Más que una tendencia, el color es una herramienta poderosa para transformar espacios en lugares que inspiran, que abrazan y que cuentan tu propia historia.
+                <img src="CONSUEGRA.png">
+            <p>Fue pionero del diseño gráfico en Colombia. Diseñó logotipos icónicos como los de Inravisión, el Museo de Arte Moderno de Bogotá y Fedearroz. También fue autor de libros influyentes como De marcas y símbolos y En busca del cuadrado.
                 </p>
                 <style>
-                    .parrafo2{
-                        margin-left: 10%;
-                        margin-right: 10%;
-                        margin-top: 20px;
+                    .parrafo2  {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 100px; /* Espacio entre imagen y texto */
+                        max-width: 900px;
+                        margin: 60px auto;
                     }
+                
+                    .parrafo2 img {
+                        width: 200px;
+                        height: auto;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+
+                    .parrafo2 p{
+                        margin-top: 70px;
+                    }
+                    
+              *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    background-color: cornsilk;
+}
+                section {
+                    max-width: 1200px; /* Limita el ancho del contenido */
+                    margin: 0 auto;   /* Centra el contenido horizontalmente */
+                    padding: 20px;
+                }
+            
+                section p {
+                    margin-bottom: 20px; /* Espacio entre párrafos */
+                    line-height: 1.6;     /* Mejora la legibilidad */
+                }
+                
+                
                 </style>
+                
             
             </div>
                 <div class="subtitulo">
-                    <p>Espacion pequeños, ideas grandes</p>
+                    <p>Catalina Estrada (1974)
+                    </p>
                     <style>
                         .subtitulo{
                             text-align: left;
@@ -125,36 +178,143 @@ Un buen diseño puede influir positivamente en el estado de ánimo, reducir el e
                         }
                     </style>
                     </div>
-
-
-
-
-
-
-            <a href="libro.pdf">Descargar revista en PDF</a>
-            <style>
-               a{
-                display: inline-block;
-                margin-top: 20px;
-                margin-left: 10%;
-               } 
+                    <div class="parrafo3">
+                        <img src="catalinaestrada_800x669.png">
+                    <p>Ilustradora y diseñadora de estampados originaria de Medellín, actualmente radicada en Barcelona. Su estilo se caracteriza por reinterpretar el folclore latinoamericano con colores vibrantes. Ha colaborado con marcas como Disney, Paul Smith y Old Navy. 
+                        </p>
+                        <style>
+                            .parrafo3  {
+                                display: flex;
+                                align-items: flex-start;
+                                gap: 100px; /* Espacio entre imagen y texto */
+                                max-width: 900px;
+                                margin: 60px auto;
+                            }
+                        
+                            .parrafo3 img {
+                                width: 250px;
+                                height: auto;
+                                object-fit: cover;
+                                border-radius: 8px;
+                            }
+        
+                            .parrafo3 p{
+                                margin-top: 70px;
+                            }
             </style>
-        </section>
-
-       
+                    </style>
+                </div>
+                <div class="subtitulo">
+                
+                    <p>Carlos Duque (1946)
+                    </p>
+                    <style>
+                        .subtitulo{
+                            text-align: left;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-weight: bold;
+                            font-size: 20pt;
+                            margin-left: 10%;
+                            margin-top: 20px;
+                        }
+                    </style>
+                </div>
+    
+                <div class="parrafo2">
+                    <img src="duque.png">
+                <p>Carlos Duque es un diseñador gráfico colombiano reconocido por su fuerte compromiso político y social. Destacó en los años 80 con afiches icónicos como los de la campaña por el Sí en el plebiscito de 1988. Su estilo mezcla fotografía, collage y mensajes directos, convirtiéndolo en una figura clave del diseño gráfico en Colombia.
+                    </p>
+                    <style>
+                        .parrafo2  {
+                            display: flex;
+                            align-items: flex-start;
+                            gap: 100px; /* Espacio entre imagen y texto */
+                            max-width: 900px;
+                            margin: 60px auto;
+                        }
+                    
+                        .parrafo2 img {
+                            width: 250px;
+                            height: auto;
+                            object-fit: cover;
+                            border-radius: 8px;
+                        }
+    
+                        .parrafo2 p{
+                            margin-top: 70px;
+                        }
+                        
+                  
+                    section {
+                        max-width: 1200px; /* Limita el ancho del contenido */
+                        margin: 0 auto;   /* Centra el contenido horizontalmente */
+                        padding: 20px;
+                    }
+                
+                    section p {
+                        margin-bottom: 20px; /* Espacio entre párrafos */
+                        line-height: 1.6;     /* Mejora la legibilidad */
+                    }
+                    
+                    
+                    </style>
+                    
+                
+                </div>
+                    <div class="subtitulo">
+                        <p>Tipografía con propósito</p>
+                        </div>
+                        <div class="parrafo3">
+                        <p>La tipografía es más que forma: es voz, ritmo y carácter. En el diseño gráfico, cada fuente transmite una intención. Una serif elegante puede sugerir tradición; una sans serif geométrica, modernidad. Diseñar no es solo decir algo, es cómo se dice.
+                            Elegir una fuente no es una decisión decorativa, es una declaración visual. En cada proyecto, la tipografía guía la mirada, marca el tono y genera conexión emocional. Un buen diseñador sabe cuándo dejar que la letra hable suave, y cuándo hacerla gritar. Por eso, más que estilo, se trata de intención.
+                            </p> 
+   
+         <style>
+  .parrafo3 p {
+    margin-top: 0px; 
+  }
+</style>
+ 
+  <img src="tipografia.png" alt="tipografía" class="imagen-centrada">
+</div>
+<style>
+  .imagen-centrada {
+    display: flex;
+   object-fit: cover;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+  }
+</style>
+<DIV><a href="TRANSMEDIAAAA.pdf">Descargar revista en PDF</a>
+    <style>
+   section a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    display: inline-block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #0056b3;
+    margin-bottom: 40PX;
+    margin-left: 40px;
+}
+    section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+   </DIV>
+    
+                          
     </main>
 </body>
 </html>
 
 </head>
-<body id="sec2">
-    
-
     
       
         <!-- En el pie (footer) van los creditos-->
         <footer>
-            <p>2025 - © Realizado por "tu nombre" con cariño y ayuda del profesor Camilo Galeano :P</p>
+            <p class="foot">2025 - © Realizado por Karen Mazo, con cariño y ayuda del profesor Camilo Galeano</p>
         </footer>
     </main>
 </body>
